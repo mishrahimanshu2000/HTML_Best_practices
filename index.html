@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML best practices are rules that help you create websites that are easy to maintain and read.">
+    <meta name="keywords" content="HTML, Best Practices, sementic tags, SEO">
+    <meta name = "author", content="Himanshu Mishra">
+    <title>HTML Best Practices</title>
+</head>
+<body>
+    <header>
+        <h1>HTML Best Practices</h1>
+        <p style="font-size: x-large; font-weight: 200 ;">HTML best practices are rules that help you create websites that are easy to maintain and read.
+        </p>
+        <p style="font-size: x-large; font-weight: 200;">
+            Here are some guidelines to keep in mind when building an HTML-based website:
+        </p>
+        <figure style="padding: 16px;" >
+            <img src="image1.webp" alt="HTML best practices">
+            <figcaption>
+                HTML Best Practices
+            </figcaption>
+        </figure>
+    </header>
+    <main>
+        <ul style="list-style-type: none;">
+            <li>
+                <article style="font-size: large;">
+                    <h2>Use only one &lth1> element for one code sheet</h2>
+                    There are six different heading tags in HTML, &lth1> to &lth6>. The &lth1> tag is the main heading (subject of the web page) while the &lth6> tag is the least important heading. <br><br>
+                    Having only one &lth1> element on a web page is vital for Search Engine Optimization (SEO). It helps search engines understand what a web page is all about (the main idea of a web page).  
+                </article>
+            </li>
+            <li>
+                <article style="font-size: large;">
+                    <h2>Do not skip heading levels in HTML</h2>
+                    When using the header tags, it's vital to proceed from &lth1> to &lth2> to &lth3> to &lth4> and so on...
+                    <br><br>
+                    Don't use &lth1> and then jump to &lth3> when using header tags. It's difficult for web visitors using a screen reader to understand the contents of your web page when you skip heading levels.
+                </article>
+            </li>
+            <li>
+                <article style="font-size: large;">
+                    <h2>Use the figure element to add captions to your images in HTML</h2>
+                    It's advisable to use the &ltfigure> element when adding captions to your images. It is important to use the &ltfigcaption> element along with the &ltfigure> element for it to work.
+                    <br><br>
+                    It is important to add captions to your images this way for: <br>
+                    <ul>
+                        <li><b>Search engine optimization: </b>It is easier to find your images on search engines.
+                        </li>
+                        <li>It will be easier for web visitors who use screen readers to understand the content of your web page.</li>
+                    </ul>
+                </article>
+                <figure style="padding: 16px;" >
+                    <img src="html.jpg" alt="HTML logo" style="height: 280px;" >
+                    <figcaption>
+                        HTML logo
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <article style="font-size: large;">
+                    <h2>Do not use divs to create headers and footers – use semantic elements instead</h2>
+                    HTML semantic elements mark up the structure of a document in a more meaningful way on a webpage. It is best practice to use HTML semantic elements for the proper assembly of your web page.
+                    <br><br>
+                    Avoid using &ltdivs> in place of HTML semantics. Do not use &ltdiv> elements to show headers and footers on your web page. Use semantic &ltheader> and &ltfooter> elements instead.
+                    <br><br>
+                    The &ltheader> element shows the navigation or the opening part of the web page.
+                    <br>
+                    The &ltfooter> element shows copyright information or navigation links about the web page.
+                </article>
+            </li>
+            <li>
+                <article style="font-size: large;">
+                    <h2>Avoid using &ltb> and &lti> to bold and italicize texts on a web page</h2>
+                    The &ltb> and &lti> tags are also known as the bold and italics tag. They are both used to highlight words in a text on a web page.
+                    <br><br>
+                    You shouldn't use &ltb> and &lti> for bolding and italics because they have no semantic meaning. Use the font-weight CSS property or use the &ltstrong> and the &ltem> tags instead.
+                    <br><br>
+                    You use the &ltstrong> tag to make a text on a webpage important. It highlights or bolds a text on a webpage. The &ltem> tag emphasizes the text in a webpage. It also displays the text in italics like the &lti> tag.
+                </article>
+            </li>
+            <li>
+                <article style="font-size: large;">
+                    <h2>Don't place block-level element within inline elements
+                    </h2>
+                    Block-level elements start in a new line on a web page. By default, they stretch from the beginning of the line to the end on a web page. You won't be able to add more content inline to a block element without using CSS..
+                    <br><br>
+                    The &ltp>, &lth1>-&lth6>, and the &ltdiv> elements are some of the examples of a block level element.
+                    <br><br>
+                    The inline element covers the smallest area on a web page. They do not start on a new line on a web page.
+                    <br>
+                    The &ltspan>, &ltem>, and the &lta> elements are some of the examples of inline elements.
+                </article>
+            </li>
+            <li>
+                <article style="font-size: large;">
+                    <h2>Use proper document structure
+                    </h2>
+                    HTML documents will still work without elements such as &lthtml>, &lthead>, and &ltbody>. However, the pages will not render correctly in every browser so it’s important to be consistent using the proper document structure.
+                    <figure style="padding: 16px;" >
+                        <img src="image2.png" alt="HTML logo" style="height: 280px;" >
+                        <figcaption>
+                            Document Structure
+                        </figcaption>
+                    </figure>
+                </article>
+            </li>
+            <li>
+                <article style="font-size: large;">
+                    <h2>Place external style sheets within the &lthead> tag
+                    </h2>
+                    Although external style sheets can be placed anywhere in the HTML document, it is best practice to place them within the &lthead> tag. This will allow your page to load faster.
+                </article>
+            </li>
+            
+
+            
+            
+        </ul>
+
+    </main>
+</body>
+</html>
